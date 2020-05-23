@@ -21,3 +21,22 @@ h1 {
   background-size: cover;
   margin: auto;
 }
+.opening {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 600px;
+  width: 61%;
+  margin: auto;
+  color: #002240;
+}
+#future {
+  font-size: 5vmin;
+  font-weight: bold;
+  width: 40%;
+  text-align: block;
+}
+#firstbody {
+  font-size: 3vmin;
+  width: 50%;
+}
