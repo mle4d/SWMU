@@ -11,7 +11,7 @@ body {
 }
 header {
   background: url(assets/sw-logo.svg) no-repeat left center;
-  background-size: 20%;
+  background-size: 13%;
   width: 820px;
   height: 60px;
   margin-left: auto;
@@ -31,6 +31,13 @@ h1 {
   background: url(assets/saleswhale.png);
   background-size: 100%;
   margin: auto;
+}
+.spurt {
+  width: 25%;
+  height: 200%;
+  outline: red 1px solid;
+  margin-left: 35%;
+  margin-top: -5%;
 }
 .opening {
   display: flex;
