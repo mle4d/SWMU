@@ -10,10 +10,19 @@ body {
   margin: auto;
 }
 header {
-  background: url(assets/sw-logo.svg) no-repeat right center;
-  background-size: 50%;
-  width: 400px;
+  background: url(assets/sw-logo.svg) no-repeat left center;
+  background-size: 30%;
+  width: 820px;
   height: 100px;
+  /* outline: 1px red solid; */
+  margin-left: auto;
+  margin-right: 10px;
+}
+#viewing {
+  color: #002240;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 2.5vmin;
+  text-align: right;
 }
 h1 {
   width: 630px;
