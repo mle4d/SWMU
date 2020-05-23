@@ -37,16 +37,16 @@
     background-size: 0%;
   }
   25%{
-    background-size: 25%;
+    background-size: 0%;
   }
   50%{
-    background-size: 50%;
+    background-size: 5%;
   }
   75% {
-    background-size: 75%;
+    background-size: 35%;
   }
   100% {
-    background-size: 75%;
+    background-size: 65%;
   }
 }
 @keyframes swspurt {
@@ -54,15 +54,15 @@
     background-size: 0%;
   }
   25%{
-    background-size: 25%;
+    background-size: 0%;
   }
   50%{
-    background-size: 50%;
+    background-size: 5%;
   }
   75% {
-    background-size: 75%;
+    background-size: 35%;
   }
   100% {
-    background-size: 75%;
+    background-size: 65%;
   }
 }
