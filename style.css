@@ -36,7 +36,7 @@ h1 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  height: 700px;
+  height: 650px;
   width: 61%;
   margin: auto;
   color: #002240;
@@ -51,4 +51,75 @@ h1 {
 #firstbody {
   font-size: 3vmin;
   width: 50%;
+}
+
+.culture {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: flex-start;
+  align-items: center;
+  height: 600px;
+  width: 61%;
+  margin: auto;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.cultureTop {
+  width: 60%;
+  text-align: center;
+  height: 25%;
+}
+#ourCulture {
+  color: #0B0C0D;
+  font-size: 6vmin;
+  font-weight: bold;
+  letter-spacing: -0.02em;
+  width: 100%;
+  line-height: 20px;
+}
+#cultureTagline {
+  color: #537089;
+  width: 100%;
+  text-align: center;
+  height: 40%;
+}
+.middleCulture {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.MCD {
+  width: 30%;
+}
+.MCT {
+  color: #537089;
+}
+.cultureIcon {
+  background: url(assets/cultureicon.jpg) center no-repeat;
+  background-size: 100%;
+  width: 30%;
+  height: 18%;
+  border-radius: 50%;
+}
+.cultureBottom {
+  width: 60%;
+  text-align: center;
+  height: 25%;
+}
+#cultureBottomLine {
+  color: #002240;
+  width: 100%;
+  text-align: center;
+  height: 30%;
+}
+#JTT {
+  font-weight: bold;
+  font-size: 2.8vmin;
+  color: #ffffff;
+  border-radius: 5px;
+  background: #0688FA;
+  width: 50%;
+  height: 30%;
 }
