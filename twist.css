@@ -51,6 +51,8 @@ h1 {
   background-size: 80%;
 }
 .opening {
+  background: url(assets/abovethefoldbg.png) bottom right repeat-x;
+  background-size: 90%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
