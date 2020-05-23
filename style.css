@@ -11,8 +11,8 @@ body {
 }
 header {
   background: url(assets/sw-logo.svg) no-repeat right center;
-  background-size: 80%;
-  width: 340px;
+  background-size: 50%;
+  width: 400px;
   height: 100px;
 }
 h1 {
