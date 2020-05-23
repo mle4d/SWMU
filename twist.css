@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+html {
+  background: #aaaaaa;
+}
+body {
+  background: #ffffff;
+  overscroll-behavior: none;
+  width: 80vw;
+  height: 100%;
+  margin: auto;
+}
+header {
+  background: url(assets/sw-logo.svg) no-repeat left center;
+  background-size: 20%;
+  width: 820px;
+  height: 60px;
+  margin-left: auto;
+  margin-right: 10px;
+  margin-top: -16px;
+}
+#viewing {
+  color: #002240;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 2.5vmin;
+  text-align: right;
+  font-weight: 400;
+}
+h1 {
+  width: 630px;
+  height: 300px;
+  background: url(assets/saleswhale.png);
+  background-size: 100%;
+  margin: auto;
+}
+.opening {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 700px;
+  width: 61%;
+  margin: auto;
+  color: #002240;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+#future {
+  font-size: 5vmin;
+  font-weight: bold;
+  width: 40%;
+  text-align: block;
+}
+#firstbody {
+  font-size: 3vmin;
+  width: 50%;
+}
