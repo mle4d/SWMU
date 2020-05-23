@@ -52,21 +52,24 @@ h1 {
 }
 .opening {
   background: url(assets/abovethefoldbg.png) bottom right repeat-x;
-  background-size: 90%;
+  background-size: 70%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  height: 700px;
+  height: 620px;
   width: 61%;
   margin: auto;
   color: #002240;
   font-family: 'Source Sans Pro', sans-serif;
 }
 #future {
-  font-size: 5vmin;
+  background: url(assets/futurebg.png) top no-repeat;
+  background-size: 100%;
+  font-size: 8vmin;
   font-weight: bold;
-  width: 40%;
-  text-align: block;
+  width: 50%;
+  height: 50%;
+  text-align: left;
 }
 #firstbody {
   font-size: 3vmin;
