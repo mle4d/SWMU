@@ -409,7 +409,8 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  align-content: flex-end;
+  align-items: stretch;
+  align-content: center;
 }
 .leftFooter {
  width: 35%;
