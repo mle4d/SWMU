@@ -349,9 +349,9 @@ button:hover {
   cursor: pointer;
 }
 footer {
-  height: 400px;
+  height: 300px;
   width: 630px;
   margin: auto;
-  background: url(assets/sunsetclipart.png) bottom center no-repeat;
-  background-size:100%;
+  background: #f4f4f4 url(assets/sunsetclipart.png) bottom center no-repeat;
+  background-size:110%;
 }
