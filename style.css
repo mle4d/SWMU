@@ -300,3 +300,11 @@ h1 {
   background: #ffffff url(assets/wavemaker.png) center no-repeat;
   background-size: 60%;
 }
+
+footer {
+  height: 400px;
+  width: 630px;
+  margin: auto;
+  background: url(assets/sunsetclipart.png) bottom center no-repeat;
+  background-size:100%;
+}
