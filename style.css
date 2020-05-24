@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 html {
-  background: #aaaaaa;
+  background: #9b9b9b;
 }
 body {
   background: #ffffff;
@@ -19,11 +19,14 @@ header {
   margin-top: -16px;
 }
 #viewing {
-  color: #002240;
+  color: #537089;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 2.5vmin;
   text-align: right;
   font-weight: 400;
+}
+.viewingLink {
+  color: #002240;
 }
 h1 {
   width: 630px;
