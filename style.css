@@ -300,7 +300,54 @@ h1 {
   background: #ffffff url(assets/wavemaker.png) center no-repeat;
   background-size: 60%;
 }
-
+.futureContainer {
+  width: 600px;
+  height: 200px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background: #329dfb;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+#theFuture {
+  font-size: 4vmin;
+  color: #ffffff;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 50%;
+  width: 60%;
+}
+#demo {
+  font-weight: bold;
+  font-size: 2.8vmin;
+  color: #002240;
+  border-radius: 5px;
+  background: #ffffff;
+  width: 45%;
+  height: 50%;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+#cases {
+  font-weight: bold;
+  font-size: 2.8vmin;
+  color: #ffffff;
+  border-radius: 5px;
+  border: #ffffff solid 1px;
+  background: transparent;
+  width: 45%;
+  height: 50%;
+}
+button:hover {
+  transform: scaleX(1.1) scaleY(1.1);
+  cursor: pointer;
+}
 footer {
   height: 400px;
   width: 630px;
