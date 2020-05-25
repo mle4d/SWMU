@@ -355,7 +355,7 @@ button:hover {
 }
 .psuedoFooter {
   padding-top: 60px;
-  height: 400px;
+  height: 300px;
   width: 630px;
   margin: auto;
   background: linear-gradient(0deg, #f4f4f4 5%, #ffffff 35% );
@@ -365,13 +365,13 @@ button:hover {
   align-content: stretch;
 }
 .SWlogo2 {
-  width: 20%;
+  width: 18%;
   height: 10%;
   background: url(assets/sw-logo.svg)center no-repeat;
   background-size: 90%;
 }
 .bottomInfo {
-  width: 75%;
+  width: 80%;
   height: 100%;
   display: flex;
   flex-direction: row;
@@ -381,20 +381,22 @@ button:hover {
   align-items: flex-start;
 }
 .BItext {
-  width: 45%;
+  width: 20%;
   height: 45%;
   line-height: 24px;
   color: #002240;
   font-family: 'Source Sans Pro', sans-serif;
 }
 .BItextHeaders {
+  font-size: 2vmin;
   line-height: 0px;
+  font-weight: 800;
 }
 .BItextblocks {
-font-size: 2vmin;
+font-size: 1.8vmin;
 }
 .boldAd {
-  font-size: 2.2vmin;
+  font-size: 2vmin;
   font-weight: 600;
 }
 
