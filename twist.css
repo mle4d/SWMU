@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 html {
-  background: #b1dbeb;
+  background: #b5e8fd;
 }
 body {
   background: #ffffff;
   overscroll-behavior: none;
-  width: 80vw;
+  width: 70vw;
   height: 100%;
   margin: auto;
 }
@@ -38,13 +38,12 @@ h1 {
 .spurt {
   width: 25%;
   height: 200%;
-  margin-left: 35%;
+  margin-left: 43%;
   margin-top: -6%;
   background: url(assets/midspray.png) bottom center no-repeat;
   background-size: 30%;
   animation: midspurt linear 4s;
 }
-
 .salesspurt {
   width: 100%;
   height: 100%;
@@ -54,45 +53,60 @@ h1 {
 }
 .opening {
   background: url(assets/abovethefoldbg.png) bottom right repeat-x;
-  background-size: 70%;
+  background-size: 50%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   height: 90vh;
-  width: 56vw;
+  width: 70vw;
   margin: auto;
   color: #002240;
   font-family: 'Source Sans Pro', sans-serif;
 }
 #future {
-  background: url(assets/futurebg.png) top no-repeat;
-  background-size: 100%;
-  font-size: 8vmin;
-  font-weight: bold;
-  width: 50%;
-  height: 100%;
+  background: url(assets/futurebg.png) center no-repeat;
+  background-size: 130%;
+  width: 20vw;
+  height: 70%;
+}
+#line1 {
+  font-size: 7vmin;
+  font-weight: 600;
   text-align: left;
+}
+#line2 {
+  font-size: 6vmin;
+  font-weight: bolder;
+  text-align: center;
+  text-align: right;
+}
+#line3 {
+  font-size: 5vmin;
+  text-align: center;
 }
 #firstbody {
   font-size: 3vmin;
-  width: 50%;
+  width: 36vw;
 }
 .culture {
+  padding-top: 10vh;
+  background: url(assets/culturebg.png) 40% 15% no-repeat;
+  background-size: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  align-content: flex-start;
+  justify-content: flex-end;
+  align-content: flex-end;
   align-items: center;
-  height: 90vh;
+  height: 120vh;
   width: 56vw;
   margin: auto;
   font-family: 'Source Sans Pro', sans-serif;
 }
 .cultureTop {
-  padding-top: 10vh;
+  padding-top: 20vh;
   width: 60%;
   text-align: center;
-  height: 25%;
+  height: 18%;
 }
 #ourCulture {
   color: #0B0C0D;
@@ -100,46 +114,50 @@ h1 {
   font-weight: bold;
   letter-spacing: -0.02em;
   width: 100%;
-  line-height: 20px;
+  line-height: 10px;
 }
 #cultureTagline {
   color: #537089;
   width: 100%;
   text-align: center;
-  height: 40%;
+  height: 20%;
   font-size: 2.5vmin;
+  background-color: #ffffff72;
 }
 .middleCulture {
   width: 100%;
-  height: 50%;
+  height: 30%;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  align-content: center;
 }
 .MCD {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: stretch;
+  align-items: center;
   width: 30%;
+}
+.cultureHL {
+  text-align: center;
 }
 .MCT {
   color: #537089;
   font-size: 2.5vmin;
-}
-.cultureIcon {
-  background: url(assets/cultureicon.jpg) center no-repeat;
-  background-size: 100%;
-  width: 5vw;
-  height: 8vh;
-  border-radius: 50%;
+  align-self: flex-end;
 }
 .cultureBottom {
   width: 60%;
   text-align: center;
-  height: 25%;
+  height: 20%;
 }
 #cultureBottomLine {
   color: #002240;
   width: 100%;
   text-align: center;
-  height: 30%;
+  height: 25%;
   font-size: 2.5vmin;
 }
 #JTT {
