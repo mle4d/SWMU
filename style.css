@@ -8,15 +8,15 @@ body {
   width: 80vw;
   height: 100%;
   margin: auto;
+  margin-top: -1%;
 }
 header {
   background: url(assets/sw-logo.svg) no-repeat left center;
   background-size: 20%;
-  width: 80%;
-  height: 60px;
+  width: 84%;
+  height:8vh;
   margin-left: auto;
   margin-right: 10px;
-  margin-top: -16px;
 }
 #viewing {
   color: #537089;
@@ -39,7 +39,7 @@ h1 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  height: 650px;
+  height: 90vh;
   width: 56vw;
   margin: auto;
   color: #002240;
@@ -62,13 +62,13 @@ h1 {
   justify-content: space-around;
   align-content: flex-start;
   align-items: center;
-  height: 600px;
+  height: 90vh;
   width: 56vw;
   margin: auto;
   font-family: 'Source Sans Pro', sans-serif;
 }
 .cultureTop {
-  padding-top: 20px;
+  padding-top: 10vh;
   width: 60%;
   text-align: center;
   height: 25%;
@@ -103,8 +103,8 @@ h1 {
 .cultureIcon {
   background: url(assets/cultureicon.jpg) center no-repeat;
   background-size: 100%;
-  width: 30%;
-  height: 18%;
+  width: 5vw;
+  height: 8vh;
   border-radius: 50%;
 }
 .cultureBottom {
@@ -128,13 +128,13 @@ h1 {
   height: 30%;
 }
 .timelineContainer {
-  padding-top: 20px;
+  padding-top: 10vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-content: flex-start;
   align-items: center;
-  height: 600px;
+  height: 90vh;
   width: 56vw;
   margin: auto;
   font-family: 'Source Sans Pro', sans-serif;
@@ -151,13 +151,13 @@ h1 {
 }
 .timeline {
   width: 90%;
-  height: 75%;
+  height: 90vh;
   background: rgb(239,248,255);
-  background: linear-gradient(90deg, rgba(239,248,255,1) 27%, rgba(29,141,241,1) 27.5%, rgba(239,248,255,1) 28%);
+  background: linear-gradient(90deg, rgba(239,248,255,1) 24.5%, rgba(29,141,241,1) 25%, rgba(239,248,255,1) 25.5%);
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  padding: 5%;
+  padding-top: 2vh;
 }
 .TLitem {
   display: flex;
@@ -175,8 +175,8 @@ h1 {
   width: 10%;
 }
 .mailIcon {
-  height: 70%;
-  width: 12%;
+  height: 8vh;
+  width: 4vw;
   background: #ffffff url(assets/envelope.png) center no-repeat;
   background-size: 60%;
   border-radius: 50%;
@@ -188,13 +188,13 @@ h1 {
   font-style: normal;
 }
 .offices {
-  padding-top: 60px;
+  padding-top: 20vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-content: center;
   align-items: center;
-  height: 300px;
+  height: 50vh;
   width: 56vw;
   margin: auto;
   font-family: 'Source Sans Pro', sans-serif;
@@ -247,14 +247,14 @@ h1 {
  font-size: 4vmin;
 }
 .investors {
-  padding-bottom: 60px;
-  padding-top: 30px;
+  padding-bottom: 10vh;
+  padding-top: 10vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-content: center;
   align-items: center;
-  height: 500px;
+  height: 80vh;
   width: 56vw;
   margin: auto;
   font-family: 'Source Sans Pro', sans-serif;
@@ -307,7 +307,7 @@ h1 {
 }
 .futureContainer {
   width: 54vw;
-  height: 200px;
+  height: 35vh;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -354,8 +354,8 @@ button:hover {
   cursor: pointer;
 }
 .psuedoFooter {
-  padding-top: 60px;
-  height: 300px;
+  padding-top: 10vh;
+  height: 40vh;
   width: 56vw;
   margin: auto;
   background: linear-gradient(0deg, #f4f4f4 5%, #ffffff 35% );
@@ -401,8 +401,8 @@ font-size: 1.8vmin;
 }
 
 footer {
-  padding-top: 20px;
-  height: 320px;
+  padding-top: 10vh;
+  height: 40vh;
   width: 56vw;
   margin: auto;
   background: #f4f4f4 url(assets/sunsetclipart.png) bottom center no-repeat;
