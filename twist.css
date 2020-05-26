@@ -39,17 +39,17 @@ h1 {
   width: 25%;
   height: 200%;
   margin-left: 53%;
-  margin-top: -6%;
-  background: url(assets/midspray.png) bottom center no-repeat;
-  background-size: 30%;
+  margin-top: -5%;
+  background: url(assets/spurt.png) bottom center no-repeat;
+  background-size: 90%;
   animation: midspurt linear 4s;
 }
 .salesspurt {
   width: 100%;
   height: 100%;
-  background: url(assets/salesspurt.png) bottom center no-repeat;
-  background-size: 65%;
-  animation: swspurt linear 3.5s;
+  background: url(assets/spray.png) bottom center no-repeat;
+  background-size: 60%;
+  animation: swspurt linear infinite 4.5s;
 }
 .opening {
   background: url(assets/abovethefoldbg.png) bottom right repeat-x;
