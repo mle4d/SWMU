@@ -426,3 +426,54 @@ h1 {
   background: #ffffff url(assets/wavemaker.png) center no-repeat;
   background-size: 50%;
 }
+.futureContainer {
+  width: 54vw;
+  height: 55vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background: url(assets/seethefuturebg.png) center no-repeat;
+  background-size: 90%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+#theFuture {
+  font-size: 6vmin;
+  color: #2598f5;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 50%;
+  width: 60%;
+}
+#demo {
+  font-weight: bold;
+  font-size: 2.8vmin;
+  color: #002240;
+  border-radius: 5px;
+  border: #2598f5 solid 1px;
+  background: #2598f5;
+  width: 45%;
+  height: 50%;
+  box-shadow: 0px 5px 15px #ffffff72;
+  border-radius: 5px;
+}
+#cases {
+  font-weight: bold;
+  font-size: 2.8vmin;
+  color: #2598f5;
+  border-radius: 5px;
+  border: #2598f5 solid 1px;
+  background: #ffffff72;
+  box-shadow: 0px 5px 15px #ffffff72;
+  width: 45%;
+  height: 50%;
+}
+button:hover {
+  transform: scaleX(1.1) scaleY(1.1);
+  cursor: pointer;
+}
