@@ -104,3 +104,37 @@
     background: radial-gradient(circle, rgba(181,232,253,1) 10%, rgba(56,227,245,1) 60%, rgba(37,152,245,1) 100%);
       }
 }
+@-webkit-keyframes wave {
+  0% {
+    background-position: 100% 100%;
+  }
+  25% {
+    background-position: 50% 150%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  75% {
+    background-position: 50% 150%;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}
+@keyframes wave {
+  0% {
+    background-position: 100% 100%;
+  }
+  25% {
+    background-position: 50% 150%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  75% {
+    background-position: 50% 150%;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}
