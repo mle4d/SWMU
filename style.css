@@ -443,13 +443,13 @@ footer {
 }
 #facebook {
   background: #1f6bb6 url(assets/fb.png) center no-repeat;
-  background-size: 100%;
+  background-size: cover;
 }
 #twitter {
   background: url(assets/twitter.png) center no-repeat;
-  background-size: 100%;
+  background-size: cover;
 }
 #linkedin {
   background: url(assets/linkedin.png) center no-repeat;
-  background-size: 100%;
+  background-size: cover;
 }
