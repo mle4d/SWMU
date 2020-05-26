@@ -478,6 +478,10 @@ h1 {
 }
 button:hover {
   transform: scaleX(1.1) scaleY(1.1);
-  animation: hover infinite 1s;
+  animation: hover linear infinite 1s;
+  outline:none;
+}
+button:active {
+  transform: scaleX(.9) scaleY(.9);
   outline:none;
 }
