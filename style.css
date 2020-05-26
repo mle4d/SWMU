@@ -470,13 +470,68 @@ footer {
   }
   #future {
     font-size: 11vmin;
-    font-weight: bold;
     width: 100%;
     height: 20%;
-    text-align: block;
   }
   #firstbody {
     font-size: 4.5vmin;
     width: 100%;
+  }
+  .culture {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: flex-start;
+    height: 130vh;
+    width: 85vw;
+  }
+  .cultureTop {
+    padding-top: 10vh;
+    width: 90%;
+    text-align: left;
+    height: 20%;
+  }
+  #ourCulture {
+    font-size: 8vmin;
+    font-weight: bold;
+    width: 100%;
+    line-height: 20px;
+  }
+  #cultureTagline {
+    width: 100%;
+    text-align: left;
+    font-size: 3.5vmin;
+  }
+  .middleCulture {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .MCD {
+    width: 90%;
+    height: 30%;
+    font-size: 3.5vmin;
+    align-content: left;
+  }
+  .cultureIcon {
+    width: 40px;
+    height: 40px;
+  }
+  .cultureBottom {
+    width: 100%;
+    text-align:left;
+    height: 25%;
+  }
+  #cultureBottomLine {
+    width: 100%;
+    text-align: left;
+    height: 33%;
+    font-size: 3.5vmin;
+  }
+  #JTT {
+    font-size: 3.8vmin;
+    width: 90%;
   }
 }
