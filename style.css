@@ -486,7 +486,6 @@ footer {
     width: 85vw;
   }
   .cultureTop {
-    padding-top: 10vh;
     width: 90%;
     text-align: left;
     height: 20%;
@@ -505,7 +504,6 @@ footer {
   .middleCulture {
     width: 100%;
     height: 50%;
-    display: flex;
     flex-direction: column;
     justify-content: space-around;
   }
