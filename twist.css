@@ -316,8 +316,6 @@ h1 {
   margin: auto;
   font-family: 'Source Sans Pro', sans-serif;
   color: #002240;
-  background: url(assets/officebg.png) center bottom no-repeat;
-  background-size: 85%;
 }
 #offices {
   color: #0B0C0D;
@@ -325,9 +323,11 @@ h1 {
   font-weight: bold;
   letter-spacing: 5px;
   width: 50%;
-  height: 10%;
-  line-height: 30px;
+  height: 15%;
+  line-height: 60px;
   text-align: center;
+  background: url(assets/officesbg.png) center no-repeat;
+  background-size: 65%;
 }
 .officebox {
   width: 56vw;
@@ -366,3 +366,63 @@ h1 {
  background: #ffffff94;
 }
 
+.investors {
+  padding-bottom: 10vh;
+  padding-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  height: 80vh;
+  width: 70vw;
+  margin: auto;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #002240;
+}
+#investors {
+  color: #0B0C0D;
+  font-size: 6vmin;
+  font-weight: bold;
+  letter-spacing: 5px;
+  width: 100;
+  height: 30%;
+  line-height: 90px;
+  text-align: center;
+  background-color: #ffffff72;
+  background: url(assets/investorsbg.png) center no-repeat;
+  background-size: 70%;
+}
+.invImages {
+  width: 56vw;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: stretch;
+  align-items: center;
+}
+.investorImage {
+  height: 40%;
+  width: 40%;
+  border: 1px solid #E5E5E5;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+}
+#Ycom {
+  background: #ffffff url(assets/Ylogo.png) center no-repeat;
+  background-size: 90%;
+}
+#monks {
+  background: #ffffff url(assets/monkshill.png) center no-repeat;
+  background-size: 90%;
+}
+#strive {
+  background: #ffffff url(assets/strive.png) center no-repeat;
+  background-size: 80%;
+}
+#wavemaker {
+  background: #ffffff url(assets/wavemaker.png) center no-repeat;
+  background-size: 50%;
+}
