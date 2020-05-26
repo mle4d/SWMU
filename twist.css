@@ -29,8 +29,8 @@ header {
   color: #002240;
 }
 h1 {
-  width: 630px;
-  height: 300px;
+  width: 56vw;
+  height: 50vh;
   background: url(assets/saleswhale.png) center no-repeat;
   background-size: 75%;
   margin: auto;
