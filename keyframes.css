@@ -66,3 +66,23 @@
     background-size: 65%;
   }
 }
+@-webkit-keyframes hover {
+  0%{
+    background: rgb(181,232,253);
+    background: linear-gradient(90deg, rgba(181,232,253,1) 0%, rgba(56,227,245,1) 15%, rgba(37,152,245,1) 100%);
+      }
+  10% {
+    background: rgb(181,232,253);
+    background: linear-gradient(90deg, rgba(37,152,245,1) 5%, rgba(181,232,253,1) 45%, rgba(56,227,245,1) 100%);
+  }
+}
+@keyframes hover {
+  0%{
+    background: rgb(181,232,253);
+    background: linear-gradient(90deg, rgba(181,232,253,1) 0%, rgba(56,227,245,1) 15%, rgba(37,152,245,1) 100%);
+      }
+  10% {
+    background: rgb(181,232,253);
+    background: linear-gradient(90deg, rgba(37,152,245,1) 5%, rgba(181,232,253,1) 45%, rgba(56,227,245,1) 100%);
+  }
+}
