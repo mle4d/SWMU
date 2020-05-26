@@ -92,15 +92,15 @@
 
   31.25% {
     background: rgb(181,232,253);
-    background: radial-gradient(circle, rgba(181,232,253,1) 5%, rgba(56,227,245,1) 55%, rgba(37,152,245,1) 100%);
+    background: radial-gradient(circle, rgba(181,232,253,1) 1%, rgba(56,227,245,1) 51%, rgba(37,152,245,1) 100%);
   }
   62.5% {
     background: rgb(181,232,253);
-    background: radial-gradient(circle, rgba(181,232,253,1) 10%, rgba(56,227,245,1) 60%, rgba(37,152,245,1) 100%);
+    background: radial-gradient(circle, rgba(181,232,253,1) 2%, rgba(56,227,245,1) 52%, rgba(37,152,245,1) 100%);
   }
   100%{
     background: rgb(181,232,253);
-    background: radial-gradient(circle, rgba(181,232,253,1) 5%, rgba(56,227,245,1) 55%, rgba(37,152,245,1) 100%);
+    background: radial-gradient(circle, rgba(181,232,253,1) 1%, rgba(56,227,245,1) 51%, rgba(37,152,245,1) 100%);
       }
 }
 @keyframes hover {
@@ -111,15 +111,15 @@
 
   31.25% {
     background: rgb(181,232,253);
-    background: radial-gradient(circle, rgba(181,232,253,1) 5%, rgba(56,227,245,1) 55%, rgba(37,152,245,1) 100%);
+    background: radial-gradient(circle, rgba(181,232,253,1) 1%, rgba(56,227,245,1) 51%, rgba(37,152,245,1) 100%);
   }
   62.5% {
     background: rgb(181,232,253);
-    background: radial-gradient(circle, rgba(181,232,253,1) 10%, rgba(56,227,245,1) 60%, rgba(37,152,245,1) 100%);
+    background: radial-gradient(circle, rgba(181,232,253,1) 2%, rgba(56,227,245,1) 52%, rgba(37,152,245,1) 100%);
   }
   100%{
     background: rgb(181,232,253);
-    background: radial-gradient(circle, rgba(181,232,253,1) 5%, rgba(56,227,245,1) 55%, rgba(37,152,245,1) 100%);
+    background: radial-gradient(circle, rgba(181,232,253,1) 1%, rgba(56,227,245,1) 51%, rgba(37,152,245,1) 100%);
       }
 }
 @-webkit-keyframes wave {
