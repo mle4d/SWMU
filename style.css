@@ -453,11 +453,11 @@ footer {
   background: url(assets/linkedin.png) center no-repeat;
   background-size: cover;
 }
-
-@media screen and (min-width: 320px) and (max-width: 500px){
+@media screen and (min-width: 320px) and (max-width: 1078px){
   body {
     width: 100vw;
   }
+
   h1 {
     width: 85vw;
     height: 60vh;
