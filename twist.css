@@ -726,9 +726,9 @@ footer {
     height: 20%;
   }
   #cultureBottomLine {
-    padding-top: 2vh;
+    padding-bottom: 2vh;
     color: #002240;
-    width: 60%;
+    width: 40%;
     margin: auto;
     text-align: center;
     height: 25%;
