@@ -886,6 +886,15 @@ footer {
   .opening {
     width: 98vw;
   }
+  #future {
+    background: url(assets/futurebg.png) center no-repeat;
+    background-size: 130%;
+    width: 25%;
+  }
+  #firstbody {
+    font-size: 3vmin;
+    width: 60%;
+  }
   .culture {
     width: 98vw;
     height: 150vh;
