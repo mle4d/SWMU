@@ -805,8 +805,7 @@ footer {
   }
   .futureContainer {
     width: 98vw;
-    height: 50vh;
-    background-size: 80%;
+    height: 30vh;
   }
   .psuedoFooter {
     height: 40vh;
