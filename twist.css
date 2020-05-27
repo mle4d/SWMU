@@ -741,4 +741,37 @@ footer {
     width: 94vw;
     height: 90vh;
   }
+  .offices {
+    height: 60vh;
+    width: 98vw;
+  }
+  .officebox {
+    width: 96vw;
+    height: 50%;
+  }
+  .addresses {
+    height: 100%;
+    width: 45%;
+    border: none;
+    box-shadow: none;
+    border-radius: 5px;
+  }
+  .address {
+    font-size: 12px;
+  }
+  #Singapore {
+    background: #ffffff url(assets/singapore.png) center no-repeat;
+    background-size: 55%;
+  }
+  #DC {
+    background: #ffffff url(assets/washington.png) center no-repeat;
+    background-size: 45%;
+  }
+  .location {
+   font-weight: bold;
+   font-size: 6vmin;
+   height: 20%;
+   line-height: 0px;
+  }
+  
 }
