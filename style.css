@@ -746,6 +746,73 @@ footer {
     height: 20%;
     width: 50%;
   }
-
-  
+}
+@media screen and (min-width: 768px) and (max-width: 1040px){
+  html {
+    background: #ffffff;
+  }
+  body {
+    width: 100vw;
+  }
+  header {
+    background: url(assets/sw-logo.svg) no-repeat left center;
+    background-size: 13%;
+    width: 98vw;
+    height: 60px;
+    margin-left: auto;
+    margin-right: 10px;
+    margin-top: -14px;
+  }
+  #viewing {
+    font-size: 3.5vmin;
+    text-align: right;
+  }
+  h1 {
+    width: 78vw;
+    height: 40vh;
+    margin: auto;
+  }
+  .opening {
+    width: 98vw;
+  }
+  .culture {
+    width: 98vw;
+    height: 150vh;
+    background-size: 70%;
+  }
+  .timelineContainer {
+    width: 98vw;
+  }
+  .timeline {
+    width: 100%;
+  }
+  .offices {
+    width: 98vw;
+  }
+  .officebox {
+    width: 80%;
+  }
+  .investors {
+    height: 80vh;
+    width: 98vw;
+  }
+  #investors {
+    width: 50%;
+    background-size: 40%;
+  }
+  .invImages {
+    width: 80%;
+  }
+  .futureContainer {
+    width: 98vw;
+    height: 70vh;
+    background-size: 80%;
+  }
+  .psuedoFooter {
+    height: 40vh;
+    width: 98vw;
+  }
+  footer {
+    width: 98vw;
+  }
 }
