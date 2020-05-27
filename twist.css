@@ -643,28 +643,30 @@ footer {
   #line1 {
     width: 30%;
     height: 50%;
-    font-size: 7vmin;
+    font-size: 8vmin;
     font-weight: 600;
     text-align: left;
     line-height: 0px;
   }
   #line2 {
     width: 30%;
+    height: 80%;
     font-size: 6vmin;
     font-weight: bolder;
     text-align: center;
-    line-height: 30px;
+    line-height: 20px;
   }
   #line3 {
     width: 30%;
+    height: 100%;
     font-size: 5vmin;
     text-align: right;
-    line-height: 15px;
-    align-self: flex-start;
+    line-height: 22px;
+    margin-top: 60px;
   }
   #firstbody {
     font-size: 4vmin;
-    width: 98vw;
+    width: 96vw;
     height: 83%;
   }
 }
