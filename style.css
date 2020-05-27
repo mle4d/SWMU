@@ -464,7 +464,7 @@ footer {
     background: url(assets/starrynight.jpg)center no-repeat;
   }
   .opening {
-    height: 115vh;
+    height: 125vh;
     width: 85vw;
     flex-direction: column;
   }
