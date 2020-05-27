@@ -755,12 +755,8 @@ footer {
     width: 100vw;
   }
   header {
-    background: url(assets/sw-logo.svg) no-repeat left center;
-    background-size: 13%;
     width: 98vw;
     height: 80px;
-    margin-left: auto;
-    margin-right: 10px;
   }
   #viewing {
     font-size: 3.5vmin;
@@ -776,7 +772,7 @@ footer {
   }
   .culture {
     width: 98vw;
-    height: 150vh;
+    height: 100vh;
     background-size: 70%;
   }
   .timelineContainer {
