@@ -598,12 +598,23 @@ footer {
     background: url(assets/sw-logo.svg) no-repeat left top;
     background-size: 25%;
     width: 96vw;
-    height:15vh;
+    height:10vh;
     margin: auto;
     margin-top: 0px;
   }
   #viewing {
     font-size: 3.5vmin;
     text-align: right;
+  }
+  h1 {
+    width: 98vw;
+    height: 35vh;
+    background: url(assets/saleswhale.png) center no-repeat;
+    background-size: 90%;
+    margin: auto;
+  }
+  .spurt {
+    margin-left: 63%;
+    margin-top: -17%;
   }
 }
