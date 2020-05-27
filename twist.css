@@ -588,7 +588,22 @@ footer {
 }
 
 @media screen and (min-width: 320px) and (max-width: 500px){
+  html {
+    background: #ffffff;
+  }
   body {
     width: 100vw;
+  }
+  header {
+    background: url(assets/sw-logo.svg) no-repeat left top;
+    background-size: 25%;
+    width: 96vw;
+    height:15vh;
+    margin: auto;
+    margin-top: 0px;
+  }
+  #viewing {
+    font-size: 3.5vmin;
+    text-align: right;
   }
 }
