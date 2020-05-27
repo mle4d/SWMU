@@ -587,7 +587,7 @@ footer {
   background-size: cover;
 }
 
-@media screen and (min-width: 320px) and (max-width: 1078px){
+@media screen and (min-width: 320px) and (max-width: 500px){
   html {
     background: #ffffff;
   }
