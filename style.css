@@ -425,6 +425,7 @@ footer {
 .privacyTerms {
   font-weight: bold;
   font-size: 2.5vmin;
+  text-align: justify;
 }
 .copyright {
   font-size: 1.8vmin;
