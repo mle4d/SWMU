@@ -105,8 +105,8 @@ h1 {
 .cultureIcon {
   background: url(assets/cultureicon.jpg) center no-repeat;
   background-size: 100%;
-  width: 5vw;
-  height: 8vh;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
 }
 .cultureBottom {
@@ -178,8 +178,8 @@ h1 {
   width: 10%;
 }
 .mailIcon {
-  height: 8vh;
-  width: 4vw;
+  height: 60px;
+  width: 60px;
   background: #ffffff url(assets/envelope.png) center no-repeat;
   background-size: 60%;
   border-radius: 50%;
@@ -241,8 +241,8 @@ h1 {
 .officeIcon {
  background: url(assets/officeicon.png) center no-repeat;
  background-size: 100%;
- width: 26%;
- height: 30%;
+ width: 60px;
+ height: 60px;
  border-radius: 50%;
 }
 .location {
