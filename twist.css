@@ -891,5 +891,41 @@ footer {
     height: 150vh;
     background-size: 70%;
   }
-  
+  .timelineContainer {
+    width: 98vw;
+  }
+  .timeline {
+    width: 100%;
+  }
+  .offices {
+    width: 98vw;
+  }
+  .officebox {
+    width: 80%;
+  }
+  .investors {
+    height: 80vh;
+    width: 98vw;
+  }
+  #investors {
+    width: 50%;
+    background-size: 40%;
+  }
+  .invImages {
+    width: 80%;
+  }
+  .futureContainer {
+    width: 98vw;
+    height: 70vh;
+    background-size: 80%;
+  }
+  .psuedoFooter {
+    height: 40vh;
+    width: 98vw;
+    background: #ffffff url(assets/info.png) center no-repeat;
+    background-size: 65%;
+  }
+  footer {
+    width: 98vw;
+  }
 }
