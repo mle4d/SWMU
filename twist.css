@@ -812,4 +812,14 @@ footer {
     background: #ffffff url(assets/wavemaker.png) center no-repeat;
     background-size: 50%;
   }
+  .futureContainer {
+    width: 94vw;
+    background-size: 100%;
+  }
+  #theFuture {
+    font-size: 8vmin;
+  }
+  .buttons {
+    height: 30%;
+  }
 }
