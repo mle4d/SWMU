@@ -704,8 +704,6 @@ footer {
     align-content: center;
   }
   .MCD {
-    display: flex;
-    flex-direction: column;
     justify-content: space-between;
     align-content: stretch;
     align-items: stretch;
@@ -727,21 +725,113 @@ footer {
   }
   #cultureBottomLine {
     padding-bottom: 2vh;
-    color: #002240;
     width: 40%;
     margin: auto;
-    text-align: center;
     height: 25%;
     font-size: 2.5vmin;
   }
-  #JTT {
+  .timelineContainer {
+    padding-top: 0vh;
+    height: 100vh;
+    width: 98vw;
+  }
+  .timeline {
+    background: url(assets/tlbg.png) center no-repeat;
+    background-size: 90%;
+    width: 94vw;
+    height: 90vh;
+  }
+ 
+  #founded {
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    height: 18%;
+    width:49.3%;
+    border-bottom: 1vh solid #38e3f5;
+    border-right: 1vw solid #b5e8fd;
+    box-shadow: 1px 1px 5px #b5e8fd65;
+  }
+  #Accepted {
+    background-size: 50%;
+    align-self: flex-end;
+    align-items: flex-start;
+    height: 17%;
+    width:48.9%;
+    border-bottom: 1vh solid #2598f5;
+    border-left: 1vw solid #b5e8fd;
+    box-shadow: -1px 1px 5px #b5e8fd65;
+    text-align: right;
+  }
+  #seedFunding {
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    height: 14%;
+    width:49.3%;
+    border-bottom: 1vh solid #38e3f5;
+    border-right: 1vw solid #b5e8fd;
+    box-shadow: 1px 1px 5px #b5e8fd65;
+  }
+  #raised {
+    align-self: flex-end;
+    align-items: flex-start;
+    height: 17%;
+    width:48.9%;
+    border-bottom: 1vh solid #2598f5;
+    border-left: 1vw solid #b5e8fd;
+    box-shadow: -1px 1px 5px #b5e8fd65;
+    text-align: right;
+  }
+  #US {
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    height: 18%;
+    width:49.3%;
+    border-bottom: 1vh solid #38e3f5;
+    border-right: 1vw solid #b5e8fd;
+    box-shadow: 1px 1px 5px #b5e8fd65;
+  }
+  #firstDate {
+    margin-right: -20px;
+    margin-top: 32px;
+    border: 2px solid #38e3f5;
+  }
+  #secondDate {
+    margin-left: -20px;
+    margin-top: 28px;
+    border: 2px solid #2598f5;
+  }
+  #thirdDate {
+    margin-right: -20px;
+    margin-top: 12px;
+    border: 2px solid #38e3f5;
+  }
+  #fourthDate {
+    margin-left: -20px;
+    margin-top: 28px;
+    border: 2px solid #2598f5;
+  }
+  #fifthDate {
+    margin-right: -20px;
+    margin-top: 32px;
+    border: 2px solid #38e3f5;
+  }
+  .date {
+    color: #1d8df1;
     font-weight: bold;
-    font-size: 2.8vmin;
-    color: #ffffff;
-    border-radius: 5px;
-    background: #0688FA;
-    width: 50%;
-    height: 30%;
-    outline:none;
+    font-size: 3.5vmin;
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #b5e8fd;
+    padding: 10px;
+    text-align: center;
+  }
+  .timelineText {
+    color: #002240;
+    font-weight: 600;
+    width:60%;
+    font-style: normal;
+    font-size: 2.5vmin;
   }
 }
