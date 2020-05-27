@@ -773,5 +773,43 @@ footer {
    height: 20%;
    line-height: 0px;
   }
-  
+  .investors {
+    padding-bottom: 1vh;
+    padding-top: 1vh;
+    height: 80vh;
+    width: 98vw;
+  }
+  #investors {
+    color: #0B0C0D;
+    font-size: 6vmin;
+    width: 100%;
+    height: 30%;
+    background-size: 50%;
+  }
+  .invImages {
+    width: 98vw;
+  }
+  .investorImage {
+    height: 40%;
+    width: 40%;
+    border: 1px solid #38e3f5;
+    box-shadow: none;
+    border-radius: 5px;
+  }
+  #Ycom {
+    background: #ffffff url(assets/Ylogo.png) center no-repeat;
+    background-size: 90%;
+  }
+  #monks {
+    background: #ffffff url(assets/monkshill.png) center no-repeat;
+    background-size: 90%;
+  }
+  #strive {
+    background: #ffffff url(assets/strive.png) center no-repeat;
+    background-size: 80%;
+  }
+  #wavemaker {
+    background: #ffffff url(assets/wavemaker.png) center no-repeat;
+    background-size: 50%;
+  }
 }
