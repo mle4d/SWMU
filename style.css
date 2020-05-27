@@ -649,15 +649,18 @@ footer {
     font-family: 'Source Sans Pro', sans-serif;
   }
   #theFuture {
-    font-size: 6vmin;
+    font-size: 8vmin;
     color: #ffffff;
+    line-height: 80px;
   }
   .buttons {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: space-evenly;
     height: 50%;
     width: 90%;
+    margin: auto;
   }
   #demo {
     font-weight: bold;
