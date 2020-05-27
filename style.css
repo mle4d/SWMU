@@ -609,38 +609,18 @@ footer {
   .investors {
     padding-bottom: 10vh;
     padding-top: 10vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-content: center;
-    align-items: center;
     height: 110vh;
     width: 100vw;
-    margin: auto;
-    font-family: 'Source Sans Pro', sans-serif;
-    color: #002240;
-    background: rgb(255,245,245);
     background: linear-gradient(-15deg, rgba(255,255,255,1) 24%, rgba(255,245,245,1) 25% );
   }
   #investors {
-    color: #0B0C0D;
     font-size: 8vmin;
-    font-weight: bold;
-    letter-spacing: -0.02em;
-    width: 100%;
-    height: 5%;
-    line-height: 20px;
-    text-align: center;
   }
   .invImages {
     width: 100%;
     height: 90%;
-    display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    justify-content: space-around;
-    align-content: stretch;
-    align-items: center;
   }
   .investorImage {
     height: 20%;
@@ -649,20 +629,57 @@ footer {
     box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.08);
     border-radius: 5px;
   }
-  #Ycom {
-    background: #ffffff url(assets/Ylogo.png) center no-repeat;
-    background-size: 90%;
-  }
-  #monks {
-    background: #ffffff url(assets/monkshill.png) center no-repeat;
-    background-size: 90%;
-  }
-  #strive {
-    background: #ffffff url(assets/strive.png) center no-repeat;
-    background-size: 80%;
-  }
   #wavemaker {
-    background: #ffffff url(assets/wavemaker.png) center no-repeat;
     background-size: 50%;
+  }
+  .futureContainer {
+    width: 100vw;
+    height: 45vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: flex-end;
+    border-radius: 5px;
+    background: #329dfb;
+    background: linear-gradient(5deg, #329dfb 86%, #ffffff 87% );
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  #theFuture {
+    font-size: 6vmin;
+    color: #ffffff;
+  }
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50%;
+    width: 90%;
+  }
+  #demo {
+    font-weight: bold;
+    font-size: 2.8vmin;
+    color: #002240;
+    border-radius: 5px;
+    background: #ffffff;
+    width: 90%;
+    height: 30%;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+  }
+  #cases {
+    font-weight: bold;
+    font-size: 2.8vmin;
+    color: #ffffff;
+    border-radius: 5px;
+    border: #ffffff solid 1px;
+    background: transparent;
+    width: 90%;
+    height: 30%;
+  }
+  button:hover {
+    transform: scaleX(1.1) scaleY(1.1);
+    cursor: pointer;
   }
 }
