@@ -620,7 +620,7 @@ footer {
     font-family: 'Source Sans Pro', sans-serif;
     color: #002240;
     background: rgb(255,245,245);
-    background: linear-gradient(-15deg, rgba(255,255,255,1) 44%, rgba(255,245,245,1) 45% );
+    background: linear-gradient(-15deg, rgba(255,255,255,1) 24%, rgba(255,245,245,1) 25% );
   }
   #investors {
     color: #0B0C0D;
