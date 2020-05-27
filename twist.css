@@ -844,54 +844,11 @@ footer {
   
   footer {
     padding-top: 1vh;
-    height: 40vh;
-    width: 70vw;
-    margin: auto;
-    background: url(assets/bottombg.png) bottom center repeat-x;
-    background-size:60%;
-    animation: wave linear infinite 10s;
-    font-family: 'Source Sans Pro', sans-serif;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: stretch;
-    align-content: center;
-  }
-  .leftFooter {
-   width: 35%;
-   height: 50%;
-  }
-  .privacyTerms {
-    font-weight: bold;
-    font-size: 2.5vmin;
-  }
-  .copyright {
-    font-size: 1.8vmin;
+    height: 30vh;
+    width: 100vw;
+    background-size:90%;
   }
   .socialIcons {
-    height: 20%;
-    width: 30%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
+    width: 50%;
   }
-  .socialLogo {
-    border-radius: 50%;
-    height: 30px;
-    width: 30px;
-  }
-  #facebook {
-    background: #1f6bb6 url(assets/fb.png) center no-repeat;
-    background-size: cover;
-  }
-  #twitter {
-    background: url(assets/twitter.png) center no-repeat;
-    background-size: cover;
-  }
-  #linkedin {
-    background: url(assets/linkedin.png) center no-repeat;
-    background-size: cover;
-  }
-  
 }
