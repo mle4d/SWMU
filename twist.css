@@ -822,4 +822,76 @@ footer {
   .buttons {
     height: 30%;
   }
+  .psuedoFooter {
+    padding-top: 1vh;
+    height: 36vh;
+    width: 98vw;
+    background: #ffffff url(assets/info.png) right no-repeat;
+    background-size: 100%;
+  }
+  .SWlogo2 {
+    width: 18%;
+    height: 10%;
+    background: url(assets/sw-logo.svg)center no-repeat;
+    background-size: 90%;
+  }
+  .BItext {
+    line-height: 14px;
+  }
+  .BItextHeaders {
+    font-size: 2.3vmin;
+  }
+  
+  footer {
+    padding-top: 1vh;
+    height: 40vh;
+    width: 70vw;
+    margin: auto;
+    background: url(assets/bottombg.png) bottom center repeat-x;
+    background-size:60%;
+    animation: wave linear infinite 10s;
+    font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: stretch;
+    align-content: center;
+  }
+  .leftFooter {
+   width: 35%;
+   height: 50%;
+  }
+  .privacyTerms {
+    font-weight: bold;
+    font-size: 2.5vmin;
+  }
+  .copyright {
+    font-size: 1.8vmin;
+  }
+  .socialIcons {
+    height: 20%;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .socialLogo {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+  }
+  #facebook {
+    background: #1f6bb6 url(assets/fb.png) center no-repeat;
+    background-size: cover;
+  }
+  #twitter {
+    background: url(assets/twitter.png) center no-repeat;
+    background-size: cover;
+  }
+  #linkedin {
+    background: url(assets/linkedin.png) center no-repeat;
+    background-size: cover;
+  }
+  
 }
